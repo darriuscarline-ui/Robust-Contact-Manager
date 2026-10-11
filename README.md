@@ -23,3 +23,15 @@ Project Files
 1. buggy_contacts.py (The original starter code)
 2. contact_manager.py (The corrected contact management program)
 3. test_contact_manager.py (automated unit tests)
+
+How to run the program 
+
+Make sure python is installed. Open a terminal in the project folder and run: contact_manager.py.
+Follow the menu instructions to add, find, or delete contacts.
+
+How to run the unit test
+
+Run the following command from the folder: test_contact_manager.py
+The tests check adding a contact, finding an existing contact, handling a missing contact, deleting an existing contact, handling deletion of a missing contact, and rejecting duplicate contacts.
+
+
