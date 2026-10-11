@@ -12,3 +12,7 @@ Features
 5. Validate menu input and handle invalid entries.
 6. Prevent duplicate contacts using a custom exception.
 7. Run automated tests using Python's unittest framwork. 
+
+Bugs Fixed and Improvements
+
+The original code could crash when a user attempted to find or delete a contact that did not exist. I added try/except blocks to catch KeyError exceptions and display a helpful message. I also added input validation to handle non-integer menu choices using ValueError. To prevent duplication contacts, I created a custom DuplicateContactError exception and used the raise statement when a contact name already exists. 
