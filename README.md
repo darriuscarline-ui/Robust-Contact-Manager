@@ -34,4 +34,4 @@ How to run the unit test
 Run the following command from the folder: test_contact_manager.py
 The tests check adding a contact, finding an existing contact, handling a missing contact, deleting an existing contact, handling deletion of a missing contact, and rejecting duplicate contacts.
 
-
+Video Demo: https://www.loom.com/share/5d5b9a6b0eca450c84721c707b044f6e
